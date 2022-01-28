@@ -48,21 +48,6 @@ button {
 	list-style: none;
 	display: flex;
 }
-.abc {
-	background: violet;
-}
-.aaa {
-	background: var(--dark-background)
-}
-.bbb {
-	background: rgb(253, 255, 146);
-}
-.ccc {
-	background: peru;
-}
-.ddd {
-	background: peru;
-}
 /* ==== END GLOBAL ==== */
 /* ==== HEADER ==== */
 .header .container {
@@ -192,6 +177,7 @@ button {
 	line-height: 1.142;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 	color: var(--second-text-color);
 }
 .description-atuts {
@@ -299,7 +285,9 @@ button {
 /* ==== END FOOTER ====*/
 
 /* ==== PORTFOLIO ==== */
-
+.portfolio-header {
+	border-bottom: 1px solid #ECECEC;
+}
 .portfolio-section .container {
 	display: flex;
 	flex-direction: column;
@@ -363,4 +351,9 @@ button {
 	margin-top: 4px;
 	margin-bottom: 20px;
 	padding-left: 24px;
+}
+.border-div {
+	border-right: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
 }
